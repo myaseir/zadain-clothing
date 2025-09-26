@@ -34,8 +34,8 @@ const EventsBanner = () => {
             <div className='details'>
               <p>Flex Hand Embroidered</p>
               <div className='price'>
-                <span>PKR 4100.00</span>
                 <span>PKR 5975.00</span>
+                <span>PKR 4199.00</span>
               </div>
             </div>
             <Image src={event2} alt='event' />
@@ -45,8 +45,8 @@ const EventsBanner = () => {
             <div className='details'>
               <p>Crimson Charm</p>
               <div className='price'>
-                <span>PKR 3250.00</span>
-                <span>PKR 5190.00</span>
+                <span>PKR 5999.00</span>
+                <span>PKR 4099.00</span>
               </div>
             </div>
             <Image src={event3} alt='event' />
