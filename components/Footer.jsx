@@ -14,7 +14,7 @@ const Footer = () => {
             <div className='icon-container'>
   <div><GrFacebookOption size={20} /></div>
   <div><FaWhatsapp size={20} /></div>
-  <div><FaInstagram size={20} /></div>
+  <a href="https://www.instagram.com/zadain_s/?igsh=MWN6bmJreXNrMGozcA%3D%3D#"><div><FaInstagram size={20} /></div></a> 
 </div>
         </div>
 
