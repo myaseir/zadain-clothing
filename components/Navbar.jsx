@@ -22,7 +22,7 @@ const Navbar = ({Searchproducts}) => {
         {/* <Link href='/male'><li>Male</li></Link> */}
         <Link href='/kids'><li>Kids</li></Link>
         <Link href='/products'><li>All Products</li></Link>
-        <Link href='/home'><li>home</li></Link>
+       
       </ul>
 
         <div className='search-bar'>
