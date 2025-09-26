@@ -1,7 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import logo from '../src/assets/Logo.png'
-import {GrFacebookOption, GrTwitter, GrLinkedinOption} from 'react-icons/gr'
+import { GrFacebookOption } from 'react-icons/gr';
+import { FaWhatsapp, FaInstagram } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -10,11 +11,11 @@ const Footer = () => {
         <div className='logo'>
           <Image src={logo} width={180} height={30} alt='logo' />
           <p>Small, artisan label that offers a thoughtfully curated collection of high quality everyday essentials made.</p>
-          <div className='icon-container'>
-            <div><GrTwitter size={20} /></div>
-            <div><GrFacebookOption size={20} /></div>
-            <div><GrLinkedinOption size={20} /></div>
-          </div>
+            <div className='icon-container'>
+  <div><GrFacebookOption size={20} /></div>
+  <div><FaWhatsapp size={20} /></div>
+  <div><FaInstagram size={20} /></div>
+</div>
         </div>
 
         <div className='footer-links'>
