@@ -15,7 +15,7 @@ const Navbar = ({Searchproducts}) => {
   return (
     <nav>
       <Link href='/'>
-        <Image src={logo} width={140} height={25} alt='logo' />
+       <Image src={logo} width={240} height={55} alt='logo' />
       </Link>
       <ul className='nav-links'>
         <Link href='/female'><li>Female</li></Link>
