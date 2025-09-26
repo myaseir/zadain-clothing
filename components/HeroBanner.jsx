@@ -24,7 +24,7 @@ const HeroBanner = () => {
 
       <div className={styles['header-content']}>
         <span>Sale 70%</span>
-        <h1>An Industrial Take on Streetwear</h1>
+        <h1>An Industrial Take on Traditional Wear </h1>
         <p>
           Anyone can beat you but no one can beat your outfit as long as you wear Dine outfits.
         </p>
